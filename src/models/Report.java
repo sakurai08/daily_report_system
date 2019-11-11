@@ -60,6 +60,12 @@ public class Report {
     public void setId(Integer id) {
         this.id = id;
         }
+
+    public Employee getEmployee() {
+        return employee;
+    }
+
+
     public void setEmployee(Employee employee) {
         this.employee = employee;
     }
