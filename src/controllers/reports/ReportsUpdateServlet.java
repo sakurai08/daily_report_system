@@ -19,7 +19,7 @@ import utils.DBUtil;
 /**
  * Servlet implementation class ReportsUpdateServlet
  */
-@WebServlet(name = "/reports/update", urlPatterns = { "//reports/update" })
+@WebServlet("/reports/update")
 public class ReportsUpdateServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
